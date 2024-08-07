@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="main-menu">
+   <div><h1>{% include 'menu/title.html' %}</h1></div>
+    <div><a href="/">log out</a></div>
+</div>
+
+<form action="user_register" method='post'>
+    <label>name
+        <input type="text" name="box1" required>
+    </label>
+       <label>fathername
+        <input type="text" name="box2" required>
+    </label>
+     <label>number
+        <input type="number" name="box3" required>
+    </label>
+    <label>Email
+        <input type="Email" name="box4" required>
+    </label>
+    <label>address
+        <input type="text" name="box5" required>
+    </label>
+    <label>pincode
+        <input type="number" name="box6" required>
+    </label>
+
+    <label>username
+        <input type="text" name="box7" required>
+    </label>
+    <label>password
+        <input type="password" name="box8" required>
+    </label>
+    <button>register</button>
+</form>
+</body>
+</html>

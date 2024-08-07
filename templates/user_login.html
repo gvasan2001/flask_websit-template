@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="main-menu">
+   <div><h1>{% include 'menu/title.html' %}</h1></div>
+    <div><a href="/">log out</a></div>
+</div>
+<form action="/user_login" method="post">
+        <label>username
+            <input type="text" name="box1" required >
+        </label>
+        <label >Password
+            <input type="password" name="box2" required >
+        </label>
+    <a href="registerPage">register page</a>
+        <button>Login</button>
+</form>
+</body>
+</html>
